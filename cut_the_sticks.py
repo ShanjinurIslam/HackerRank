@@ -14,7 +14,6 @@ def cutTheSticks(arr):
     
     while(n>0):
         min_val = arr[0]
-        max_val = arr[-1]
         out_arr.append(n)
         
         while(n>0 and arr[0]==min_val):
